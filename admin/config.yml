@@ -6,12 +6,12 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: "content"
+    label: "Contenu"
     files:
       - label: "Page d'accueil"
         name: "index"
         file: "index.html"
         fields:
-          - { label: "Titre principal", name: "title", widget: "string" }
-          - { label: "Texte d’intro", name: "intro", widget: "text" }
+          - { label: "Titre", name: "title", widget: "string" }
+          - { label: "Paragraphe", name: "body", widget: "text" }
